@@ -1,0 +1,14 @@
+backend:
+  name: git-gateway
+local_backend: true
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        name: "Index"
+        label: "Index"
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
