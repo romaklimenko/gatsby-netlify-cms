@@ -1,5 +1,4 @@
 ---
 path: /
 ---
-
-# Hello, world!
+# Hello, Netlify CMS!
